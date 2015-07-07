@@ -910,7 +910,7 @@ function displayGenome(genome)
                 cells[MaxNodes+o] = cell
                 local color
                 if cell.value > 0 then
-                        color = 0xFF0000FF
+                        color = 0xFF0000FF --0x63726573 USE THIS LATER
                 else
                         color = 0xFF000000
                 end
